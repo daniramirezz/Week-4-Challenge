@@ -11,8 +11,15 @@
 
 var tomHeight= 9 
 var tomMass= 8
+var tomBmi= 0.09
 
 var jerryHeight= 10
 var jerryMass= 45 
+var jerryBmi= 0.45
 
-console.log(`${tomMass}/ ${tomHeight}^2`)
+if (`${tomBmi}< ${jerryBmi}`){
+        console.log ('Is Tom’s BMI higher than Jerry’s? false')
+}
+else{
+    console.log(' ')
+}
